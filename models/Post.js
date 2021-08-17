@@ -21,6 +21,10 @@ const PostSchema = new mongoose.Schema({
     categories: {
         type: Array,
         required: false,
+    },
+    location: {
+        lat: Number,
+        lng: Number
     }
 },
      {timestamps: true}
